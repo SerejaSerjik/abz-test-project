@@ -1,0 +1,102 @@
+/*left bar menu styles */
+.left-bar {
+  padding: 0 15px; }
+  .left-bar-nav-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+  .left-bar-nav-item {
+    height: 50px;
+    border-bottom: 1px solid #e0e2e6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .left-bar-nav-item:hover {
+      cursor: pointer;
+      background: #e0e2e6; }
+    .left-bar-nav-item img {
+      width: 24px;
+      height: 24px; }
+    .left-bar-nav-item-text {
+      margin-left: 25px;
+      font-size: 16px;
+      color: #59606b; }
+
+/*companies block in left bar */
+.companies {
+  padding-left: 1px;
+  border-bottom: 1px solid #e0e2e6; }
+  .companies-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .companies-title span {
+      font-size: 14px;
+      line-height: 50px; }
+    .companies-title-text {
+      color: #7c8695; }
+    .companies-title-button {
+      color: #1c2534; }
+      .companies-title-button:hover {
+        cursor: pointer; }
+  .companies-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px; }
+  .companies-logo {
+    height: 80px;
+    margin-right: 10px; }
+  .companies-desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch; }
+    .companies-desc span {
+      height: 20px; }
+    .companies-desc-name {
+      font-size: 16px;
+      color: #1c2534;
+      line-height: 16px; }
+    .companies-desc-type, .companies-desc-location {
+      font-size: 14px;
+      line-height: 14px;
+      color: #7c8695; }
+    .companies-desc-follow {
+      font-size: 12px;
+      line-height: 12px;
+      color: #1c2534; }
+      .companies-desc-follow:hover {
+        cursor: pointer; }
+
+/*legal info styles */
+.legal-info {
+  padding-left: 1px;
+  color: #b7bfcd;
+  font-size: 12px; }
+  .legal-info-row:first-child {
+    margin-top: 18px; }
+  .legal-info-row:nth-child(2) {
+    margin-top: 20px; }
+  .legal-info-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  .legal-info-terms {
+    margin-right: 21px; }

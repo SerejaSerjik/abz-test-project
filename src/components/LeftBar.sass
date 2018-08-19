@@ -1,0 +1,81 @@
+/*left bar menu styles*/
+.left-bar
+    padding: 0 15px
+    &-nav
+        &-list
+            margin: 0
+            padding: 0
+            list-style-type: none
+        &-item
+            height: 50px
+            border-bottom: 1px solid #e0e2e6
+            display: flex
+            align-items: center
+            &:hover
+                cursor: pointer
+                background: #e0e2e6
+            img
+                width: 24px
+                height: 24px
+            &-text
+                margin-left: 25px
+                font-size: 16px
+                color: #59606b
+
+/*companies block in left bar*/ 
+.companies
+    padding-left: 1px
+    border-bottom: 1px solid #e0e2e6
+    &-title
+        display: flex
+        justify-content: space-between
+        span
+            font-size: 14px
+            line-height: 50px
+        &-text
+            color: #7c8695
+        &-button
+            color: #1c2534
+            &:hover
+                cursor: pointer
+    &-item
+        display: flex
+        margin-bottom: 20px
+    &-logo
+        height: 80px
+        margin-right: 10px
+    &-desc
+        display: flex
+        flex-direction: column
+        justify-content: stretch
+        span
+            height: 20px
+        &-name
+            font-size: 16px
+            color: #1c2534
+            line-height: 16px
+        &-type, &-location
+            font-size: 14px
+            line-height: 14px
+            color: #7c8695
+        &-follow
+            font-size: 12px
+            line-height: 12px
+            color: #1c2534
+            &:hover
+                cursor: pointer
+
+/*legal info styles*/
+.legal-info
+    padding-left: 1px
+    color: #b7bfcd
+    font-size: 12px
+    &-row:first-child
+        margin-top: 18px
+    &-row:nth-child(2)
+        margin-top: 20px
+    &-row
+        display: flex
+        flex-direction: row
+    &-terms
+        margin-right: 21px

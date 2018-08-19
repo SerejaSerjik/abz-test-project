@@ -1,0 +1,4 @@
+/* main grid */
+.main {
+  display: grid;
+  grid-template-columns: 242.5px 6fr 242.5px; }

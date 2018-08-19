@@ -1,0 +1,75 @@
+/*header bcg styles, grid-wrapper and logo*/  
+.header
+    width: 100%
+    height: 66px
+    background-color: #87b448
+    border-bottom: 2px solid #71973c
+    &-wrapper
+        display: inline-grid
+        grid-template-columns: 2fr 7fr 3fr
+        grid-template-rows: 68px
+        width: 100%
+        align-items: center
+        padding: 0 15px
+    &-logo
+        width: 132px
+        height: 40px
+        background-image: url(../assets/Logo.svg)
+        background-repeat: no-repeat
+
+/*search input block + icons styles*/
+.search
+    margin: 0 15px
+    display: flex
+    &-wrapper
+        position: relative
+        width: 100%
+    &-input
+        width: 100%
+        height: 34px
+        border-color: #73993d
+        background: #73993d no-repeat left 11px center 
+        outline: 0
+        font-size: 15px
+        line-height: 34px
+        padding-left: 37px
+        color: #fff
+        border: 0
+        border-radius: 5px
+        &:focus
+            background-color: #fff
+            color: #000
+        &::placeholder
+            color: inherit
+            opacity: 1
+        &::-ms-clear, &::-ms-reveal
+            display: none
+            width: 0
+            height: 0
+        &::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration
+            display: none
+    &-search-icon
+        position: absolute
+        left: 10px
+        top: 9px
+    &-chat-icon
+        margin-left: 30px
+        &:hover
+            cursor: pointer
+    &-notifications-icon
+        margin-left: 20px
+        &:hover
+            cursor: pointer
+
+/*user info block styles*/
+.user-info
+    margin-left: 15px
+    display: flex
+    align-items: center
+    &-userpic
+        margin-right: 9px
+    &-name
+        width: auto
+        color: #fefefe  
+        font-size: 16px
+        line-height: 32px
