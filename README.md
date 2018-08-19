@@ -1,8 +1,8 @@
 Test assignment for Junior/Middle Frontend Developer position
 
-"build" folder contains builded project using webpack with minified css
-
 npm -i - to instal node modules
+
+npm build - to build project and get mifidied css
 
 project contains 2 pages: "/" and "/contact-us"
 
