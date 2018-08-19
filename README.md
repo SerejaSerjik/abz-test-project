@@ -1,6 +1,6 @@
 Test assignment for Junior/Middle Frontend Developer position
 
-npm -i - to instal node modules
+npm i - to instal node modules
 
 npm build - to build project and get mifidied css
 
